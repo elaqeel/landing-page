@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="max-w-7xl mx-auto p-6">
+        <!-- Navigation -->
+        <nav class="flex items-center justify-between mb-8">
+          <!-- Left: Icon and Nav -->
+          <div class="flex items-center gap-4">
+            <i class="fas fa-greater-than bg-black text-white p-[10px] rounded-full w-8 h-8 text-sm flex items-center justify-center"></i>
+      
+            <!-- Nav Items (now beside the icon) -->
+            <ul class="hidden md:flex gap-6 text-gray-700 font-medium ml-6">
+              <li><a href="#" class="hover:text-blue-600">Tutorial</a></li>
+              <li><a href="#" class="hover:text-blue-600">Case Studies</a></li>
+              <li><a href="#" class="hover:text-blue-600">Resources</a></li>
+            </ul>
+          </div>
+      
+          <!-- Hamburger Icon -->
+          <div class="md:hidden text-2xl text-gray-700 cursor-pointer">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      
+        <!-- Content Area -->
+        <div class="flex flex-col md:flex-row gap-8 items-start">
+          <!-- Left Column -->
+          <div class="md:w-1/2 flex flex-col justify-start">
+            <h2 class="text-3xl md:text-4xl font-medium text-gray-800 mb-4" style="font-family: 'Source Code Pro', monospace;">
+              Improve your skills by 
+              <span class="inline-flex items-center justify-center bg-black text-white rounded-full w-8 h-8 text-sm mx-1">
+                <i class="fas fa-code"></i>
+              </span>
+              study with coding
+            </h2>
+      
+            <img src="/images/Group 2.png" alt="lines" class="w-20 h-20 mt-5">
+      
+            <p class="text-gray-700 mb-6">
+              Create, launch, and iterate on new marketing campaigns without distracting your product team.
+            </p>
+      
+            <button class="bg-black text-white px-6 py-3 text-center flex items-center justify-center gap-2 text-sm" style="max-width: 5cm;">
+              Get Started
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+      
+          <!-- Right Column: Image aligned to top -->
+          <div class="md:w-1/2 self-start">
+            <img src="images/Landing Imagery[1].png" alt="Coding Image" class="w-full h-auto rounded-md">
+          </div>
+        </div>
+      </section>
+      <section class="bg-grey py-10">
+        <div class="max-w-7xl mx-auto px-4">    
+          <div class="flex flex-wrap justify-center gap-[7rem]">
+            <img src="/images/edex.png" alt="Sponsor 1" class="w-32 md:w-48 object-contain" />
+            <img src="/images/coursera.png" alt="Sponsor 2" class="w-32 md:w-48 object-contain" />
+            <img src="/images/udemy.png" alt="Sponsor 3" class="w-32 md:w-48 object-contain" />
+          </div>
+        </div>
+      </section>
+
+<section class=" bg-gray-300 max-w-7xl mx-auto p-6">
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Left Column -->
+      <div class="w-full md:w-1/2 flex flex-col items-start text-left">
+        <!-- Increased text size for h3 and p -->
+        <h3 class="text-4xl font-semibold text-gray-800 mb-4">Our Features <br> Special For You</h3>
+        <p class="text-2xl text-gray-700 mb-6">
+          We provide various special features for all of you
+        </p>
+      </div>
+  
+      <!-- Right Column (Three Square Boxes with Rounded Edges) -->
+      <div class="w-full md:w-1/2 flex justify-center items-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-center">
+
+          <!-- Box 1 with Question Mark Icon -->
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between h-64 w-full">
+            <div class="w-full h-[16px] mb-2 md:mb-4 flex justify-center items-center">
+              <i class="fas fa-question-circle text-4xl text-gray-700"></i>
+            </div>
+            <div class="flex flex-col justify-start space-y-2">
+              <h2 class="text-xl font-semibold text-gray-800 mb-2">Best Tutors</h2>
+              <p class="text-gray-600">Bring your design vision to life in clean, semantics HTML5</p>
+            </div>
+          </div>
+  
+          <!-- Box 2 with Book Icon -->
+          <div class="bg-green-400 p-6 rounded-lg shadow-lg text-center flex flex-col justify-between h-64 w-full">
+            <div class="w-full h-[16px] mb-2 md:mb-4 flex justify-center items-center">
+              <i class="fas fa-book text-4xl text-gray-700"></i>
+            </div>
+            <div class="flex flex-col justify-start space-y-2">
+              <h2 class="text-xl font-semibold text-gray-800 mb-2">Flexible</h2>
+              <p class="text-gray-600"> Connect your marketing tools with built-in integrations</p>
+            </div>
+          </div>
+  
+          <!-- Box 3 with Book Icon -->
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between h-64 w-full">
+            <div class="w-full h-[16px] mb-2 md:mb-4 flex justify-center items-center">
+              <i class="fas fa-book text-4xl text-gray-700"></i>
+            </div>
+            <div class="flex flex-col justify-start space-y-2">
+              <h2 class="text-xl font-semibold text-gray-800 mb-2">Easy Access</h2>
+              <p class="text-gray-600">Connect your marketing tools with built in integrations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- Try It Yourself Page  -->
+
+  <section class="bg-white max-w-7xl mx-auto p-6">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      
+      <!-- Left Column: Image -->
+      <div class="w-full md:w-1/2">
+        <img src="images/Frame 3.png" alt="Descriptive alt text" class="w-full h-auto rounded-md">
+      </div>
+  
+      <!-- Right Column: Text and Button -->
+      <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+        <h3 class="text-3xl md:text-4xl font-medium text-gray-800 mb-4" style="font-family: 'Source Code Pro', monospace;">
+            The language for <br/> building web pages
+        </h3>
+        
+        <p class="text-gray-700 mb-6">
+            Go live on a fast, reliable, and hassle-free <br> hosting network that scales with your business <br> with one click and go code.
+        </p>
+        
+        <button class="bg-black text-white px-6 py-3 text-center flex items-center justify-center gap-2 text-sm" style="max-width: 5cm;">
+          Try it yourself
+          <i class="fas fa-arrow-up-right-from-square"></i>
+        </button>
+      </div>
+  
+    </div>
+  </section>
+  <section class="bg-white max-w-7xl mx-auto p-6">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      
+      <!-- Left Column -->
+      <div class="w-full md:w-1/2 flex flex-col">
+        
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+          Get up and running <br> fast together
+        </h2>
+        
+        <!-- Two Side-by-Side Boxes -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          
+          <!-- Box 1 -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow text-center flex flex-col items-center">
+            <i class="fas fa-lightbulb text-4xl text-yellow-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">University</h3>
+            <p class="text-gray-600 text-sm">Get inspired by the <br>incredible websites built by <br>members of the community.</p>
+          </div>
+  
+          <!-- Box 2 -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow text-center flex flex-col items-center">
+            <i class="fas fa-lightbulb text-4xl text-yellow-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Showcase</h3>
+            <p class="text-gray-600 text-sm">Browse hundreds of in-depth br  videos, courses, and guides  <br> to get up and running fast
+        </p>
+          </div>
+  
+        </div>
+      </div>
+  
+      <!-- Right Column: Image -->
+      <div class="w-full md:w-1/2 flex items-center justify-center">
+        <img src="images/Tutor.png" alt="Learning illustration" class="h-full max-h-[400px] w-auto rounded-md object-contain">
+      </div>
+    </div>
+  </section>
+  <section class="max-w-7xl mx-auto p-6">
+    <!-- Section Header -->
+    <div class="text-center mb-10">
+      <h3 class="text-3xl font-bold text-gray-800 mb-2"> Choose your package</h3>
+      <p class="text-gray-600">We provide various types of packages just for you.</p>
+    </div>
+  
+    <!-- Boxes -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Box 1 -->
+      <div class="bg-gray-300 p-6 rounded-lg flex flex-col items-center justify-between h-80">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">DEVELOPMENT</h3>
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">$10</h1>
+        <p class="text-center text-gray-700 mb-4">1 Module Javascript <br> 1 Module Human Resources</p>
+        <button class="bg-white text-green-700 px-6 py-2 rounded text-center">Buy Now</button>
+      </div>
+  
+      <!-- Box 2 (Taller, Black Background) -->
+      <div class="bg-black p-6 rounded-lg flex flex-col items-center justify-between h-96 text-white">
+        <h3 class="text-lg font-semibold mb-2">IT & SOFTWARE</h3>
+        <h1 class="text-4xl font-bold mb-2">$30</h1>
+        <p class="text-center mb-4">
+            1 Module Javascript <br>1 Module Human Resources <br>2 Module Sales Teams <br>Pack Marketing Skills <br>5 Module Study Case <br> 
+        </p>
+        <button class="bg-green-800 text-black px-6 py-2 rounded text-center">Buy Now</button>
+      </div>
+  
+      <!-- Box 3 -->
+      <div class="bg-gray-300 p-6 rounded-lg flex flex-col items-center justify-between h-80">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">Business</h3>
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">$30</h1>
+        <p class="text-center text-gray-700 mb-4">
+            1 Module Javascript <br>1 Module Human Resources <br>2 Module Sales Teams <br>
+        </p>
+        <button class="bg-white text-green-600 px-6 py-2 rounded text-center">Buy Now</button>
+      </div>
+  
+    </div>
+  </section>
+
+
+  <section class="max-w-4xl mx-auto p-6" style="font-family: 'Source Code Pro', monospace;">
+    <!-- Top Headings -->
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-semibold text-black-600 mb-3">FAQs</h1>
+    </div>
+  
+    <!-- Question 1 (Expanded) -->
+    <div class="mb-10">
+      <div class="flex justify-between items-start mb-6">
+        <div>
+          <h2 class="text-xl font-bold text-gray-800 mb-5">01 Can I Find the right Information faster?</h2>
+          <p class="text-gray-600">Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien. Donec ornare odio justo, ac <br>
+            efficitur enim fermen. Nam enim ligula, lacinia vitae venenatis quis, suscipit id augue.</p>
+        </div>
+        <div class="bg-yellow-500 text-white rounded-full w-8 h-8 flex items-center justify-center mt-1 cursor-pointer">
+          <i class="fas fa-minus"></i>
+        </div>
+      </div>
+      <hr class="border-t border-gray-300">
+    </div>
+  
+    <!-- Question 2 (Collapsed) -->
+    <div class="mb-10">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold text-gray-800 mb-5">02 How to share future demos and ideas?</h2>
+        <div class="bg-white text-gray-800 border border-gray-300 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+      <hr class="border-t border-gray-300">
+    </div>
+  
+    <!-- Question 3 (Collapsed) -->
+    <div class="mb-10">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold text-gray-800 mb-6">03 How to get insights from users?</h2>
+        <div class="bg-white text-gray-800 border border-gray-300 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+      <hr class="border-t border-gray-300">
+    </div>
+
+
+    <!-- Question 4 (Collapsed) -->
+    <div class="mb-10">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-xl font-bold text-gray-800 mb-6">04 Can i develop my website without code?</h2>
+          <div class="bg-white text-gray-800 border border-gray-300 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <hr class="border-t border-gray-300">
+      </div>
+
+  </section>
+  <!-- Upgrade Section -->
+<section class="relative z-10 bg-[#DDF247] max-w-5xl mx-auto p-6 text-center rounded-lg shadow-[0_0_40px_rgba(34,197,94,0.5)] -mb-20">
+    <h1 class="text-4xl font-bold text-gray-800 mb-3">Start upgrading your <br> skills free for this month</h1>
+    <h4 class="text-lg text-gray-600 mb-6">Build your site for free and take as long as you need</h4>
+  
+    <!-- Buttons -->
+    <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-4">
+      <button class="bg-green-800 text-green-100 px-6 py-3 rounded text-sm">Try Yourself</button>
+      <button class="bg-black text-white px-6 py-3 flex items-center justify-center gap-2 text-sm">
+        Get Started
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </button>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-black text-white pt-32 pb-10 px-6">
+    <div class="max-w-6xl mx-auto">
+      <!-- Top Row -->
+      <div class="flex flex-col md:flex-row items-start justify-between mb-6">
+        <div class="flex items-center gap-4 mb-4 md:mb-0">
+          <!-- Icon -->
+          <div class=" bg-yellow-200 text-white w-4 h-4 rounded-full flex items-center justify-center text-xs">
+            <i class="fas fa-greater-than"></i>
+          </div>
+          <!-- Brand -->
+          <span class="font-semibold text-sm">Macode</span>
+        </div>
+  
+        <!-- Nav Links -->
+        <ul class="flex gap-6 ml-0 md:ml-20 text-sm text-gray-300">
+          <li><a href="#" class="hover:text-white">Tutorials</a></li>
+          <li><a href="#" class="hover:text-white">Case Studies</a></li>
+          <li><a href="#" class="hover:text-white">Resources</a></li>
+        </ul>
+      </div>
+  
+      <!-- Divider -->
+      <hr class="border-gray-600 mb-6">
+  
+      <!-- Bottom Row -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center text-sm text-gray-400 gap-4">
+        <!-- Social Icons -->
+        <div class="flex gap-4">
+          <i class="fab fa-facebook-f cursor-pointer hover:text-white"></i>
+          <i class="fab fa-twitter cursor-pointer hover:text-white"></i>
+          <i class="fab fa-linkedin-in cursor-pointer hover:text-white"></i>
+          <i class="fas fa-envelope cursor-pointer hover:text-white"></i>
+        </div>
+  
+        <!-- Copyright -->
+        <div class="text-sm text-gray-500">
+          © 2025 Macode.io
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
